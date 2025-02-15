@@ -1,0 +1,4 @@
+repository "My Game VR 2@akshat_222@cloud"
+  path "/"
+    br "/main"
+    co "/main"
