@@ -121,4 +121,3 @@ Material:
     - _Test: {r: 7, g: 8, b: 0, a: 1500}
     - _TintColor: {r: 0.60294116, g: 0.7699795, b: 1, a: 0.15}
     - _UVScrollFadeDistort: {r: 3, g: 6, b: 0, a: 1500}
-  m_BuildTextureStacks: []

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 19800280}
   - component: {fileID: 19942896}
   - component: {fileID: 114292708538074672}
-  - component: {fileID: 114817157926106218}
   m_Layer: 0
   m_Name: Drops
   m_TagString: Untagged
@@ -4630,7 +4629,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c3b7d0d215764854599acfa82fe08313, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4694,21 +4692,6 @@ MonoBehaviour:
   MaxGroundAngleDeviation: 45
   MinDistanceBetweenDecals: 0.1
   MinDistanceBetweenSurface: 0.04
---- !u!114 &114817157926106218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 135170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cdfcee5fa3388540924238b5581eea9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisableOnMobiles: 0
-  RenderMobileDistortion: 1
-  ParticleBudgetForMobiles: 1
 --- !u!1 &143228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9372,7 +9355,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a7f6a57e86bf7c04781160609460cc13, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9449,6 +9431,7 @@ Transform:
   - {fileID: 405442}
   - {fileID: 466942}
   - {fileID: 433082}
+  - {fileID: 3283004525572432708}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14142,7 +14125,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 374cffd5a788b4f4f8b66e7ae146bf74, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14200,3 +14182,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 949448bcb56d893468eb5d921a48e002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &6166956878368129424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3283004525572432708}
+  - component: {fileID: 3468314590872600171}
+  m_Layer: 0
+  m_Name: PerPlatformSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3283004525572432708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6166956878368129424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 448664}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3468314590872600171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6166956878368129424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cdfcee5fa3388540924238b5581eea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisableOnMobiles: 0
+  Particles: []
+  ParticleBudgetForMobiles: 1

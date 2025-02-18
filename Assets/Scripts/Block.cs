@@ -7,7 +7,7 @@ public class Block : MonoBehaviour
         if (other.CompareTag("Bullet"))
         {
             // Destroy both the bullet and the block
-            Destroy(other.gameObject);
+            // Destroy(other.gameObject);
             Destroy(gameObject);
             Debug.Log("Destroying the blocks");
         }

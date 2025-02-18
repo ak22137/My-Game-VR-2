@@ -125,4 +125,3 @@ Material:
     - _Speed: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 800, g: 1600, b: 8, a: 16}
     - _TintColor: {r: 0.28546715, g: 0.2936046, b: 0.32352942, a: 0.037}
-  m_BuildTextureStacks: []

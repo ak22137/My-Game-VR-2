@@ -91,4 +91,3 @@ Material:
     - _ReflectColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _TintColor: {r: 0.6162182, g: 0.9117647, b: 0.18101211, a: 1}
-  m_BuildTextureStacks: []
