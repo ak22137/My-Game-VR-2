@@ -12,4 +12,5 @@ public class Block : MonoBehaviour
             Debug.Log("Destroying the blocks");
         }
     }
+     
 }
